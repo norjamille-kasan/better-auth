@@ -24,7 +24,6 @@ possiblePaths = [
 	...possiblePaths.map((it) => `src/${it}`),
 	...possiblePaths.map((it) => `app/${it}`),
 	...possiblePaths.map((it) => `server/${it}`),
-	
 ];
 
 function stripJsonComments(jsonString: string): string {
